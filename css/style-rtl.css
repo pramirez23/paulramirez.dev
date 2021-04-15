@@ -343,7 +343,7 @@ button:focus {
 }
 
 .header-name {
-    font-size: 54px;
+    font-size: 39px;
 }
 
 .header-desc {
@@ -569,7 +569,6 @@ button:focus {
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 5px;
     transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
 }
 

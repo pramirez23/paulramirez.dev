@@ -94,7 +94,7 @@
                             <div class="col-lg-12">
                                 <div class="text-center header-content mx-auto">
                                     <h4 class="text-white first-title mb-4">Welcome!</h4>
-                                    <h1 class="header-name text-white text-capitalize mb-0">I'M <span class="element font-weight-bold" data-elements="Paul Ramirez., a Software Engineer., a Photographer., a Videographer."></span></h1>
+                                    <h1 class="header-name text-white mb-0">I am <span class="element font-weight-bold" data-elements="Paul Ramirez., a Software Engineer., a Photographer., a Videographer."></span></h1>
                                     <div class="mt-4 pt-2">
                                         <a href="resume.pdf" target="_blank" class="btn btn-outline-custom btn-round">Resume</a>
                                     </div>
@@ -495,7 +495,6 @@
                                 <div class="work_detail">
                                     <h4 class="mb-0">Tonify</h4>
                                     <p class="mb-2">A fully functional single-page clone of Spotify that allows users to browse and play music.</p>
-                                    <p class="mb-2">Users can generate playlists add songs to their personal libraries.</p>
                                     <p class="mb-2">Built with React/Redux, Ruby/Rails, and AWS S3.</p>
                                 </div>
                             </div>
@@ -511,7 +510,6 @@
                           <div class="work_detail">
                             <h4 class="mb-0">PathNavigator</h4>
                             <p class="mb-2">An interactive pathfinding algorithm visualizer inspired by Clement Mihailescu.</p>
-                            <p class="mb-2">PathNavigator is intended to show users how common pathfinding algorithms function.</p>
                             <p class="mb-2">Built with pure JavaScript.</p>
                           </div>
                         </div>
@@ -526,8 +524,7 @@
                                 </div>
                                 <div class="work_detail">
                                     <h4 class="mb-0">TalentShare</h4>
-                                    <p class="mb-2">A social media web application focused on user-generated content revolving around art, photography, music and dance.</p>
-                                    <p class="mb-2">TalentShare provides a platform for creatives to showcase their work, gain exposure, and live chat with fans.</p>
+                                    <p class="mb-2">A social media web app focused on user-generated content revolving around art, photography, music and dance.</p>
                                     <p class="mb-2">Built with the MERN stack.</p>
                                 </div>
                             </div>
@@ -541,9 +538,9 @@
                                     <img src="images/works/golf.gif" class="img-fluid mx-auto d-block rounded" alt="work-img">
                                 </div>
                                 <div class="work_detail">
-                                    <h4 class="mb-0">3 Minute Pre-Golf Warm-Up</h4>
-                                    <p class="mb-2">Worked directly with a physical therapist to create a high-quality video that is short, informative, and beneficial as a resource to viewers seeking tips to prevent golf injuries.</p>
-                                    <p class="mb-2">Fully shot, edited, and produced with the Adobe Creative Suite.</p>
+                                    <h4 class="mb-0">3 Minute Golf Warm-Up</h4>
+                                    <p class="mb-2">Worked directly with a physical therapist to create a resource for viewers seeking tips to prevent golf injuries.</p>
+                                    <p class="mb-2">Made with the Adobe Creative Suite.</p>
                                 </div>
                             </div>
                         </a>
@@ -556,9 +553,9 @@
                                     <img src="images/works/pt.gif" class="img-fluid mx-auto d-block rounded" alt="work-img">
                                 </div>
                                 <div class="work_detail">
-                                    <h4 class="mb-0">A Day in the Life of a Physical Therapist</h4>
-                                    <p class="mb-2">Created with the intention of providing a high-quality, informational video for people considering physical therapy as a career.</p>
-                                    <p class="mb-2">Fully shot, edited, and produced by myself with the Adobe Creative Suite within two weeks.</p>
+                                    <h4 class="mb-0">A Day in the Life of a PT</h4>
+                                    <p class="mb-2">Created with the intention of providing a resource for people considering physical therapy as a career.</p>
+                                    <p class="mb-2">Made with the Adobe Creative Suite.</p>
                                 </div>
                             </div>
                         </a>
@@ -571,9 +568,9 @@
                                     <img src="images/works/ot.gif" class="img-fluid mx-auto d-block rounded" alt="work-img">
                                 </div>
                                 <div class="work_detail">
-                                    <h4 class="mb-0">What is Occupational Therapy?</h4>
-                                    <p class="mb-2">Directed and produced with the intention to bring more awareness to the benefits of occupational therapy.</p>
-                                    <p class="mb-2">Fully shot, edited, and produced with the Adobe Creative Suite.</p>
+                                    <h4 class="mb-0">What is OT?</h4>
+                                    <p class="mb-2">Produced with the intention to bring more awareness to the benefits of occupational therapy.</p>
+                                    <p class="mb-2">Made with the Adobe Creative Suite.</p>
                                 </div>
                             </div>
                         </a>
@@ -701,30 +698,23 @@
                     <div class="col-lg-12">
                         <div class="form-kerri contact_form">
                             <div id="message"></div>
-                            <form method="post" action="php/contact.php" name="contact-form" id="working_form">
+                            <form method="POST" action="https://formspree.io/f/mleadrqw">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group mt-2">
-                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name..." >
+                                            <input id="name" type="text" name="_name" class="form-control" required placeholder="Your name..." >
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group mt-2">
-                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email..." >
+                                            <input id="email" type="email" name="_replyto" class="form-control" required placeholder="Your email..." >
                                         </div>
                                     </div>                                
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group mt-2">
-                                            <input type="text" class="form-control" id="subject" placeholder="Your Subject.." />
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="form-group mt-2">
-                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                            <textarea name="message" id="comments" rows="4" class="form-control" required placeholder="Your message..."></textarea>
                                         </div>
                                     </div>
                                 </div>
